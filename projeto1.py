@@ -42,7 +42,7 @@ def calcular_peso_ideal():
         peso_ideal = (72.7 * altura) - 58
         print(f"O peso ideal de um homem de {altura:.2f} metros é: {peso_ideal:.2f} kg")
     elif genero == "mulher":
-        peso_ideal == (62.1 * altura) - 44.7
+        peso_ideal = (62.1 * altura) - 44.7
         print(f"O peso ideal de uma mulher de {altura:.2f} metros é: {peso_ideal:2f} kg")
     else:
         print("gênero invalido.")
