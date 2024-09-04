@@ -1,4 +1,4 @@
-contador =0 #valor inicial da váriavel 
+contador = 0 #valor inicial da váriavel 
 soma = 0 
 print("Digite [-1] para sair ")
 while True: #comando que sempre faz o programa rodar se a condição for verdadeira 
