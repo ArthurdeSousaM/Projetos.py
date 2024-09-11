@@ -2,6 +2,7 @@ maior_altura = float("-inf")
 menor_altura = float("inf") 
 homens = 0 
 mulheres = 0
+soma = 0 
 print("Dgite [0] para sair.")
 while True: 
     genero = input("Digite seu gênero [M] ou [F]: ")
@@ -16,7 +17,12 @@ while True:
         mulheres += 1
     if genero =='m':
         homens += 1 
+    contador = homens + mulheres
+    soma += altura  
+media = soma / contador 
 print(f"Maior altura do grupo é: {maior_altura:.2f} ")
 print(f"Meor altura do grupo é: {menor_altura:.2f} ")
 print(f"A quantidade de homens é: {homens} ")
 print(f"A quantidade de mulheres é: {mulheres}")
+print(f"A média das alturas é: { media} ")
+print(f"A quantidade de números digitados foram: {contador}")
