@@ -10,4 +10,4 @@ while True:
     if valor > maior_valor: 
         maior_valor = valor 
 print(f"O maior valor é:  {maior_valor }") 
-print(f"O menor valor é : {menor_valor }")
+print(f"O menor valor é: {menor_valor }")
